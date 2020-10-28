@@ -86,11 +86,64 @@
 			</div>
 		</div>
 	</div>
-	<div style="color:#0049A0;">
-		Administrador: <b><label id="lblAdministrador"></label></b>
-	</div>
+	<h2 style="color:#0049A0;" align=center>
+		PERFIL
+	</h2>
 	<div align=center style="color:#0049A0;">
-		
+		<table align=center>
+			<tr align=right>
+				<td>Usuario</td> 
+				<td><label name="lblUsuario"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Nombre</td> 
+				<td><label name="lblNombre"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Apellido</td> 
+				<td><label name="lblApellido"></label></td>
+			</tr>
+			<tr align=right>
+				<td>DNI</td> 
+				<td><label name="lblDNI"></label></td>
+			</tr>
+			<tr align=right>
+				<td>CUIL</td> 
+				<td><label name="lblCUIL"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Sexo</td> 
+				<td><label name="lblSexo"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Nacionalidad</td> 
+				<td><label name="lblNacionalidad"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Fecha de nacimiento</td> 
+				<td><label name="lblFechaN"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Direccion</td> 
+				<td><label name="lblDireccion"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Localidad</td> 
+				<td><label name="lblLocalidad"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Provincia</td> 
+				<td><label name="lblProvincia"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Correo electronico</td> 
+				<td><label name="lblCorreo"></label></td>
+			</tr>
+			<tr align=right>
+				<td>Telefonos</td> 
+				<td><label name="lblTelefonos"></label></td>
+			</tr>
+		</table>
 	</div>
 <script>
 function MostrarListaClientes() {

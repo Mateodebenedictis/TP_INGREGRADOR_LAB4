@@ -86,11 +86,16 @@
 			</div>
 		</div>
 	</div>
-	<div style="color:#0049A0;">
-		Administrador: <b><label id="lblAdministrador"></label></b>
-	</div>
+	<h2 style="color:#0049A0;" align=center>
+		<b>BAJA DE CLIENTE</b>
+	</h2>
 	<div align=center style="color:#0049A0;">
-		
+		<font>
+			Ingrese el usuario que desea dar de baja<br><br>
+		</font>
+		<input type="text" name="txtBajaCliente">
+		<input type="submit" name="btnBajaCliente" value="Dar de baja"><br><br>
+		<label for="lblMensajeBajaCliente">Se ha dado de baja exitosamente.</label>
 	</div>
 <script>
 function MostrarListaClientes() {

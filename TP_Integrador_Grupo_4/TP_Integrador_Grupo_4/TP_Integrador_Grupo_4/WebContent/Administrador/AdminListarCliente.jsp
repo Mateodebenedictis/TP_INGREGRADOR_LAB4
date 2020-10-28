@@ -86,11 +86,33 @@
 			</div>
 		</div>
 	</div>
-	<div style="color:#0049A0;">
-		Administrador: <b><label id="lblAdministrador"></label></b>
-	</div>
+	<h2 align=center style="color:#0049A0;">
+		Lista de clientes
+	</h2>
 	<div align=center style="color:#0049A0;">
+		<font size=4>
+		Filtrar por usuario
+		</font> 
+		<input type="text" name="txtListarClienteUFiltrar">
+		<input type="submit" value="Filtrar" name="btnFiltrar" style="width: 80px; height: 28px"/>
+		<br>
 		
+		<table border="1">
+			<tr> 
+			<th>Usuario</th> 
+			<th>Nombre</th> 
+			<th>Apellido</th> 
+			<th>DNI</th> 
+			<th>CUIL</th> 
+			<th>Sexo</th>
+			<th>Nacionalidad</th>
+			<th>Fecha de nacimiento</th>
+			<th>Direccion</th>
+			<th>Provincia</th>
+			<th>Correo Electronico</th>
+			<th>Telefonos</th>
+			</tr>
+		</table>
 	</div>
 <script>
 function MostrarListaClientes() {

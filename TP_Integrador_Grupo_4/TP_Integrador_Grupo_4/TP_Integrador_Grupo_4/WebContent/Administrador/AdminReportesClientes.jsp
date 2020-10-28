@@ -86,10 +86,92 @@
 			</div>
 		</div>
 	</div>
-	<div style="color:#0049A0;">
-		Administrador: <b><label id="lblAdministrador"></label></b>
-	</div>
+	<h2 align=center style="color:#0049A0;">
+		REPORTES SOBRE CLIENTES
+	</h2>
 	<div align=center style="color:#0049A0;">
+		<table border="1">
+			<tr>
+				<td>
+					<h3 align=center>
+						Calcular usuarios creados
+					</h3>
+					<table>
+						<tr>
+							<td align=right>
+								Fecha inicial
+							</td>
+							<td>
+								<input style="date" name="ReportesClientesCantidadUFechaInicial">
+							</td>
+						</tr>
+						<tr>
+							<td align=right>
+								Fecha Final
+							</td>
+							<td>
+								<input style="date" name="ReportesClientesCantidadUFechaFinal">
+							</td>
+						</tr>
+						<tr>
+							<td align=right>
+								Cantidad
+							</td>
+							<td>
+								<label name="lblReportesClientesCantidadU">65</label>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<h3 align=center>
+						Calcular cuentas creadas
+					</h3>
+					<table>
+						<tr>
+							<td align=right>
+								Fecha inicial
+							</td>
+							<td>
+								<input style="date" name="ReportesClientesCantidadCFechaInicial">
+							</td>
+						</tr>
+						<tr>
+							<td align=right>
+								Fecha Final
+							</td>
+							<td>
+								<input style="date" name="ReportesClientesCantidadCFechaFinal">
+							</td>
+						</tr>
+						<tr>
+							<td align=right>
+								Cantidad
+							</td>
+							<td>
+								<label name="lblReportesClientesCantidadC">79</label>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		
+		<h3>DEUDORES POR PRESTAMOS</h3>
+		<font size=4>
+			Filtrar por usuario
+		</font> 
+		<input type="text" name="txtReportesClientesDeudoresFiltrar">
+		<input type="submit" value="Filtrar" name="btnReportesClientesDeudoresFiltrar" style="width: 80px; height: 28px"/>
+		<br>
+		<table border="1">
+			<tr> 
+			<th> Usuario</th>
+			<th> Cantidad de cuotas pagas</th> 
+			<th> Cantidad de cuotas pendientes</th> 
+			<th> Monto pendiente </th>
+			</tr>
+		</table>
 		
 	</div>
 <script>

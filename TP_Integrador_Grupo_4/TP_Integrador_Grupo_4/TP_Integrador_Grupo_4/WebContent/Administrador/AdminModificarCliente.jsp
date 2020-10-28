@@ -86,11 +86,36 @@
 			</div>
 		</div>
 	</div>
-	<div style="color:#0049A0;">
-		Administrador: <b><label id="lblAdministrador"></label></b>
-	</div>
+	<h2 align=center style="color:#0049A0;">
+		CAMBIO DE CONTRASEÑA <b><label id="lblAdministrador"></label></b>
+	</h2>
 	<div align=center style="color:#0049A0;">
-		
+		<table>
+			<tr align=right>
+				<td>
+					<font size=5> 
+						Usuario:
+					</font>
+				</td>
+				<td>
+					<input type="text" name="txtModificarClienteUsuario">
+				</td>
+			</tr>
+			<tr align=right>
+				<td>
+					<font size=5> 
+						Nueva Contraseña:
+					</font>
+				</td>
+				<td>
+					<input type="text" name="txtModificarClienteContraseña">
+				</td>
+			</tr>
+		</table>
+		<br>
+		<input type="submit" value="Aceptar" name="btnModificarClienteAceptar" style="width: 80px; height: 28px"/>
+		<br><br>
+		<label for="lblModificarClienteMensaje">Contraseña actualizada exitosamente.</label>
 	</div>
 <script>
 function MostrarListaClientes() {
