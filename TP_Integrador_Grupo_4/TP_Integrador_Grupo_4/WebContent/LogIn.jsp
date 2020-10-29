@@ -8,9 +8,9 @@
 </head>
 <body>
 <form action="get">
-	<h1><small>Log In</small></h1>
+	<h1 align="center"><small>Iniciar Sesion</small></h1>
 	
-	<table>
+	<table align="center">
 		
 		<tr>
 			<td> Nombre de usuario </td>

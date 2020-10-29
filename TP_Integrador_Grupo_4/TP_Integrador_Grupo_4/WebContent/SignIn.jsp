@@ -9,9 +9,9 @@
 <body>
 
 <form action="get">
-	<h1><small>Sign In</small></h1>
+	<h1 align="center"><small>Crear Cuenta</small></h1>
 	
-	<table>
+	<table align="center">
 		
 		<tr>
 			<td>Nombre</td>
@@ -83,6 +83,18 @@
 		<tr>
 			<td>CUIL</td>
 			<td> <input type=number name="txtSignInCuil"/> </td>
+		</tr>
+		
+		<tr>
+			<td> Tipo de cuenta </td>
+			<td>
+				<select name="ddlSignInTipoDeCuenta">
+
+					<option value=1>Caja de ahorro</option>
+					<option value=2>Cuenta corriente</option>
+			
+				</select>
+			</td>
 		</tr>
 		
 		<tr>
